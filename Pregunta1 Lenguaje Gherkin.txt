@@ -1,0 +1,41 @@
+Como cliente, deseo poder visualizar los datos de las películas en cartelera a través de la plataforma, con el fin de poder tomar una decisión de cual veré.
+
+Scenario: El cliente va a elegir una película
+Given: El cliente se encuentra en la plataforma
+And: El cliente se encuentre logeado
+When: El cliente selecciona una película de la lista de películas disponibles en cartelera
+Then: La plataforma muestra todos los datos de la película, como cines donde está disponible y funciones.
+
+
+Como dueño de negocio, deseo que la plataforma a implementar sea 'responsive' con el fin de que pueda visualizarse perfectamente en dispositivos móviles.
+
+Scenario: Un usuario ingresa a la plataforma
+Given: el usuario se encuentra en la web o el aplicativo móvil
+When: Un usuario de la plataforma ingresa a través de cualquier dispositivo
+Then: La aparariencia visual se muestra en buen estado sin problemas de apariencia
+
+
+Como administrador de una cadena de cines, deseo poder configurar la cartelera de toda la cadena, con la finalidad de dar información consistente y veráz al cliente final.
+
+Scenario: El administrador de cadena de cines configura cartelera
+Given: El administrador de cadena de cines se encuentra logeado en la plataforma
+And: Las credenciales del administrador de cadena de cines han sido verificadas
+When: el usuario hace clic en revisar peliculas disponibles
+Then: Aparecen las peliculas que estan dando actualmente en el cine
+
+
+Como dueño de negocio, deseo poder registrar y actualizar datos de las cadenas de cine y sus locales con la finalidad de darle gran diversidad a la plataforma.
+
+Scenario: Un socio o administrador registra o actualiza datos de cadena de cine
+Given: Socio o administrador logeado en el sistema
+And: Credenciales del socio o administrador verificadas
+When: El actor presiona clic en registrar o actualizar datos de la cadena de cines
+Then: Aparece la interfaz de registro de datos de cadena de cines
+
+
+Como cliente, deseo que el proceso de compra de tickets sea sencillo y fácil de usar con la finalidad de no perder tiempo ni dejar de usar la plataforma porque esta es muy engorrosa.
+
+Scenario: El encargado realiza adquisición de tickets
+Given: El cliente ha seleccionado la película, cine y función
+When: El cliente presiona clic en siguiente
+Then: Aparece una interfaz en la cual el cliente debe indicar la cantidad de entradas a comprar y un botón "Guardar" en la parte inferior .
