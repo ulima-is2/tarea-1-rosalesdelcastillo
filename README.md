@@ -15,3 +15,7 @@
 <hr> </hr>
 <h2> Pregunta 3 </h2>
 <p> Para revisar esta pregunta se necesitará usar el archivo "Pregunta3" que está en formato PNG.</p>
+
+<hr> </hr>
+<h2> Pregunta 4 </h2>
+<p> Para revisar esta pregunta se necesitará usar el archivo "Ejercicio4" que está en formato PNG.</p>
