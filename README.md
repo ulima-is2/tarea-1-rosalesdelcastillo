@@ -10,4 +10,8 @@
 
 <hr> </hr>
 <h2> Pregunta 2 </h2>
-<p> Para revisar esta pregunta se necesitará usar el archivo "Pregunta2" que está en formato JPEG.</p>
+<p> Para revisar esta pregunta se necesitará usar el archivo "Ejercicio2" que está en formato PNG.</p>
+
+<hr> </hr>
+<h2> Pregunta 3 </h2>
+<p> Para revisar esta pregunta se necesitará usar el archivo "Pregunta3" que está en formato PNG.</p>
